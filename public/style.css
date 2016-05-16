@@ -1,0 +1,41 @@
+#searchWidget {
+  max-width: 500px;
+  height: 40px;
+  border: 1px solid lightgrey;
+}
+
+#search {
+  width: calc(100% - 50px);
+  height: 100%;
+  display: inline-block;
+  padding: 5px 0px 5px 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  outline: none;
+  border: none;
+}
+
+#microphone {
+  visibility: hidden;
+  margin: 2px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background-color: lightblue;
+  border-radius: 18px;
+  background-image: url("images/microphone.svg");
+}
+
+#microphone.available {
+  visibility: visible;
+}
+
+#microphone.recording {
+  background-color: #ffe6e6;
+  background-image: url("images/microphone_running.svg");
+}
+
+#microphone:hover {
+  cursor: pointer;
+  background-image: url("images/microphone_hover.svg");
+}

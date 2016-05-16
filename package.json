@@ -1,0 +1,27 @@
+{
+  "name": "speech-to-text-search",
+  "version": "0.0.1",
+  "description" : "IBM BlueMix speech to text sample application designed for search style queries in a web browser",
+  "license" : "Apache-2.0",
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "Graham White",
+      "email": "gwhite@uk.ibm.com"
+    }
+  ],
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "dotenv": "~2.0.0",
+    "watson-developer-cloud": "~1.5.1",
+    "vcap_services": "~0.1.7"
+  }
+}

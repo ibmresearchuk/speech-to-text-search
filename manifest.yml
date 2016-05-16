@@ -1,0 +1,15 @@
+---
+declared-services:
+  speech-to-text-service-standard:
+    label: speech_to_text
+    plan: standard
+applications:
+- name: speech-to-text-search
+  path: .
+  command: npm start
+  memory: 512M
+  services:
+  - speech-to-text-service-standard
+  env:
+    NODE_ENV: production
+    SECURE_EXPRESS: 1
