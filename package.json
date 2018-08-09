@@ -1,8 +1,8 @@
 {
   "name": "speech-to-text-search",
   "version": "0.0.1",
-  "description" : "IBM BlueMix speech to text sample application designed for search style queries in a web browser",
-  "license" : "Apache-2.0",
+  "description": "IBM BlueMix speech to text sample application designed for search style queries in a web browser",
+  "license": "Apache-2.0",
   "author": "IBM Corp.",
   "contributors": [
     {
@@ -16,7 +16,7 @@
   "dependencies": {
     "body-parser": "~1.13.2",
     "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
+    "debug": "~2.6.9",
     "express": "~4.13.1",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
